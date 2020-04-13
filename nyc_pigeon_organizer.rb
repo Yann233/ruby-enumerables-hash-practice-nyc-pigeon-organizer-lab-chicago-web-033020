@@ -8,7 +8,7 @@ def nyc_pigeon_organizer(data)
         pigeon_list[name] ||= {}
         #意思就是
         # if !pigeon_list[name]
-        # #pigeon_list[name]={}
+        # pigeon_list[name]={}
         # end
 
         pigeon_list[name][color_gender_lives] ||= []
